@@ -2,37 +2,68 @@
    padding: 0;
 box-sizing: border-box;}
 
+body {
+    color: white;
+    font: 15px "Open Sans";
+}
+
 .container {
     width: 940px;
     margin: 0 auto;
 }
-.header {
-       
+
+/* Шапка */
+.header {       
        width: 100%;
        min-width: 1024px;
        height: 900px;
-      background: linear-gradient(120deg, #f9f9f9 30%, #41e0d8 30%);
-      
-          }
-
-    .logo {
-        width: 65px;
-        height: 82px;
-        background-image: url(images/Logo_1.png);
-        background-size: cover;
-        margin: 20px 0 33px;
-    }
-
-    .header_nav {
-        margin-top: 60px;
-    }
-
+      background: linear-gradient(123deg, #f9f9f9 37%, #41e0d8 37%);
+      /* background-image: url(images/Screen.png);
+      background-repeat: no-repeat; */
+                }
+        
 .wrapper {
     width: 100%;
     /* position: absolute; */
     display: flex;
     justify-content: space-between;
 }
+.logo {
+        width: 65px;
+        height: 82px;
+        /* background-image: url(images/Logo_1.png); */
+        /* background-size: cover; */
+        margin: 20px 0 0 33px;
+    }
+/* Навигация */
+ .header_nav {
+        margin-top: 60px;
+    }
+    .but_h {
+        width: 145px;
+        height: 47px;
+        color: white;
+        background-color: transparent;
+        font: 12px "Open Sans";
+        font-weight: 600;
+        margin-left: 20px;
+        border: none;
+        text-transform: uppercase;
+    }
+
+    .but_h:hover {
+        background-color: #000;
+    }
+
+    /* основная часть header */
+
+    .phone {
+        width: 313px;
+        height: 553px;
+        background-image: url(images/Screen.png);
+        margin-top: 240px;
+        background-size: cover;
+    }
 
 
 
