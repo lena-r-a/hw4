@@ -1,0 +1,38 @@
+* {margin: 0;
+   padding: 0;
+box-sizing: border-box;}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+.header {
+       
+       width: 100%;
+       min-width: 1024px;
+       height: 900px;
+      background: linear-gradient(120deg, #f9f9f9 30%, #41e0d8 30%);
+      
+          }
+
+    .logo {
+        width: 65px;
+        height: 82px;
+        background-image: url(images/Logo_1.png);
+        background-size: cover;
+        margin: 20px 0 33px;
+    }
+
+    .header_nav {
+        margin-top: 60px;
+    }
+
+.wrapper {
+    width: 100%;
+    /* position: absolute; */
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
