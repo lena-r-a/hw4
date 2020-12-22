@@ -4,7 +4,7 @@ box-sizing: border-box;}
 
 body {
     color: white;
-    font: 15px "Open Sans";
+    font: 15px "Open Sans", sans-serif;
     font-weight: 400;
     line-height: 33px;
     /* width: 1920px; */
@@ -26,21 +26,16 @@ h1 {
        min-width: 1024px;
        height: 900px;
       background: linear-gradient(123deg, #f9f9f9 37%, #41e0d8 37%);
-      /* background-image: url(images/Screen.png);
-      background-repeat: no-repeat; */
-                }
+        }
         
 .wrapper {
     width: 100%;
-    /* position: absolute; */
     display: flex;
     justify-content: space-between;
 }
 .logo {
         width: 65px;
         height: 82px;
-        /* background-image: url(images/Logo_1.png); */
-        /* background-size: cover; */
         margin: 20px 0 0 33px;
     }
 /* Навигация */
@@ -69,7 +64,6 @@ h1 {
         width: 313px;
         height: 553px;
         background-image: url(images/Screen.png);
-        
         background-size: cover;
     }
 
@@ -81,12 +75,11 @@ h1 {
     }
 
     .text {
-        width: 448px;
-        padding-top: 15px;
+        width: 451px;
     }
     .paragr {
         margin-top: 73px;
-        width: 337px;
+        width: 350px;
     }
 
     .header_h {
@@ -157,7 +150,7 @@ h1 {
     width: 100%;
     height: 900px;
     background-color: #41e0d8;
-    padding-top: 219px;
+    padding-top: 215px;
 }
 .quote_h, .quote_parag{ 
     text-align: center;
@@ -194,10 +187,8 @@ h1 {
 
 .paragr_note {
     color: #262a34;
-    width: 450px;
+    width: 463px;
     margin: 0 auto 10px auto;
-    /* margin-top: 10px;
-    margin-left: 27px; */
 }
 
 .select_down, .select_up {
@@ -239,6 +230,10 @@ h1 {
     text-align: center;
 }
 
+.join_paragr {
+    margin-top: 25px;
+}
+
 .mail {
     display: flex;
     flex-direction: row;
@@ -274,3 +269,28 @@ h1 {
     font-family: "Open Sans";
     text-transform: uppercase;
 }
+
+.footer {
+    height: 295px;
+    background-color: #fff;
+    width: 100%;
+    padding-top: 78px;
+}
+.logo_foot {
+    margin: 0 auto;
+    width: 65px;
+    height: 82px;
+}
+
+.copyright {
+    color: #262a34;
+    text-align: center;
+    margin-top: 10px;
+}
+.nord {
+    color: #41e0d8;
+    text-transform: uppercase;
+    
+}
+
+
