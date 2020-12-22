@@ -120,7 +120,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     width: 470px;
-    height: 450px;
+    height: 405px;
 
 }
 
@@ -294,4 +294,14 @@ h1 {
     color: #41e0d8;
     text-transform: uppercase;
     
+}
+
+.radio {
+    margin-top: 45px;
+    margin-left: 190px;
+}
+
+.note_wrapp .radio {
+    margin-left: 255px;
+
 }
