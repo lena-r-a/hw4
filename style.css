@@ -7,7 +7,7 @@ body {
     font: 15px "Open Sans";
     font-weight: 400;
     line-height: 33px;
-    width: 1920px;
+    /* width: 1920px; */
 }
 
 .container {
@@ -189,7 +189,7 @@ h1 {
 .quote_note {
     display: flex;
     justify-content: space-between;
-    margin-top: 80px;
+    margin-top: 81px;
 }
 
 .paragr_note {
@@ -224,4 +224,53 @@ h1 {
     margin-left: -40px;
     margin-top: 75px;
 
+}
+
+/* Компонент join */
+
+.join {
+    height: 440px;
+    width: 100%;
+    background-color: #262a34;
+    padding-top: 75px;
+}
+
+.join_h, .join_paragr {
+    text-align: center;
+}
+
+.mail {
+    display: flex;
+    flex-direction: row;
+    margin-top: 75px;
+    justify-content: center;
+    
+}
+
+.y_mail {
+    width: 465px;
+    background-color: rgb(81,85,93);
+    height: 50px;
+    padding-top: auto;
+    padding-left: 25px;
+    border: none;
+    margin-right: 18px;
+    color: white;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 33px;
+
+}
+
+.join_butt {
+    width: 142px;
+    height: 50px;
+    background-color: #fff;
+    font-size: 15px;
+    line-height: 33px;
+    color: #41e0d8;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-transform: uppercase;
 }
