@@ -10,6 +10,7 @@ body {
     /* width: 1920px; */
 }
 
+
 .container {
     width: 940px;
     margin: 0 auto;
@@ -23,11 +24,10 @@ h1 {
 /* Шапка */
 .header {       
        width: 100%;
-       min-width: 1024px;
        height: 900px;
-      background: linear-gradient(123deg, #f9f9f9 37%, #41e0d8 37%);
-        }
-        
+      background: linear-gradient(120deg, #f9f9f9 37%, #41e0d8 37%) fixed;
+           }
+
 .wrapper {
     width: 100%;
     display: flex;
@@ -68,6 +68,7 @@ h1 {
     }
 
     .header_cont {
+       
         margin-top: 240px;
         display: flex;
         justify-content: space-between;
