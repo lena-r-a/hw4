@@ -255,7 +255,10 @@ h1 {
     font-size: 15px;
     font-weight: 400;
     line-height: 33px;
+}
 
+.y_mail::placeholder {
+    color: white;
 }
 
 .join_butt {
@@ -269,7 +272,7 @@ h1 {
     font-family: "Open Sans";
     text-transform: uppercase;
 }
-
+/* Компонент footer */
 .footer {
     height: 295px;
     background-color: #fff;
