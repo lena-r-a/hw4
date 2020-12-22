@@ -1,6 +1,6 @@
 * {margin: 0;
    padding: 0;
-box-sizing: border-box;}
+    box-sizing: border-box;}
 
 body {
     color: white;
@@ -24,7 +24,7 @@ h1 {
 .header {       
        width: 100%;
        height: 900px;
-       background: linear-gradient(120deg, #f9f9f9 37%, #41e0d8 37%) fixed;
+       background: linear-gradient(120deg, #f9f9f9 37%, #41e0d8 37%);
            }
 
 .wrapper {
@@ -32,6 +32,7 @@ h1 {
     display: flex;
     justify-content: space-between;
 }
+
 .logo {
         width: 65px;
         height: 82px;
@@ -92,12 +93,12 @@ h1 {
 }
 
     .goog-play {
-    width: 165px;
+    width: 171px;
     height: 57px;
     background-image: url(images/Play_Button.png);
     background-size: cover;
     border-radius: 14px;
-    border-color: transparent;
+    border: none;
     background-color: transparent;
     margin-top: 75px;
 }
@@ -121,7 +122,6 @@ h1 {
     justify-content: space-between;
     width: 470px;
     height: 405px;
-
 }
 
 .pict {
@@ -137,7 +137,7 @@ h1 {
     background-color: #41e0d8;
     color: white;
     text-transform: uppercase;
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
     font-weight: 600;
     border: none;
     font-size: 12px;
@@ -165,7 +165,6 @@ h1 {
     height: 455px;
     background-image: url(images/Screen_1.png);
     background-size: cover;
-
 }
 
 .note_text {
@@ -211,10 +210,8 @@ h1 {
     border-right: 15px solid white;
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
-
     margin-left: -40px;
     margin-top: 75px;
-
 }
 
 /* Компонент join */
@@ -239,19 +236,17 @@ h1 {
     flex-direction: row;
     margin-top: 75px;
     justify-content: center;
-    
 }
 
 .y_mail {
     width: 465px;
     background-color: rgb(81,85,93);
     height: 50px;
-    padding-top: auto;
     padding-left: 25px;
     border: none;
     margin-right: 18px;
     color: white;
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
     font-size: 15px;
     font-weight: 400;
     line-height: 33px;
@@ -269,10 +264,13 @@ h1 {
     line-height: 33px;
     color: #41e0d8;
     font-weight: 400;
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
     text-transform: uppercase;
+    border: none;
 }
+
 /* Компонент footer */
+
 .footer {
     height: 295px;
     background-color: #fff;
@@ -293,9 +291,9 @@ h1 {
 .nord {
     color: #41e0d8;
     text-transform: uppercase;
-    
 }
 
+/* Кртинки карусели */
 .radio {
     margin-top: 45px;
     margin-left: 190px;
