@@ -12,6 +12,7 @@ body {
 
 .container {
     width: 940px;
+    height: 100%;
     margin: 0 auto;
 }
 
@@ -20,12 +21,18 @@ h1 {
     line-height: 65px;
 }
 
-/* Шапка */
+/* header */
 .header {       
-       width: 100%;
        height: 900px;
        background: linear-gradient(120deg, #f9f9f9 37%, #41e0d8 37%);
            }
+
+.header .container {
+        background: url(images/Screen.png) no-repeat;
+        background-position: left 350px;
+        background-size: 313px auto;
+
+}
 
 .wrapper {
     width: 100%;
@@ -38,7 +45,7 @@ h1 {
         height: 82px;
         margin: 20px 0 0 33px;
     }
-/* Навигация */
+/* Navigation */
  .header_nav {
         margin-top: 60px;
     }
@@ -58,25 +65,11 @@ h1 {
         background-color: #000;
     }
 
-    /* основная часть header */
-
-    .phone {
-        width: 313px;
-        height: 553px;
-        background-image: url(images/Screen.png);
-        background-size: cover;
-    }
-
-    .header_cont {
-       
-        margin-top: 240px;
-        display: flex;
-        justify-content: space-between;
-
-    }
-
     .text {
         width: 451px;
+        margin-top: 240px;
+        margin-left: auto;
+        margin-right: 0px;
     }
     .paragr {
         margin-top: 73px;
@@ -103,11 +96,10 @@ h1 {
     margin-top: 75px;
 }
 
-/* Компонент about */
+/*about */
 
 .about {
     height: 860px;
-    width: 100%;
     background-color: #262a34;
 }
 
@@ -144,10 +136,9 @@ h1 {
     margin-top: 85px;
 }
 
-/* Компонент quote */
+/* quote */
 
 .quote {
-    width: 100%;
     height: 900px;
     background-color: #41e0d8;
     padding-top: 215px;
@@ -160,11 +151,11 @@ h1 {
     margin-top: 15px;
 }
 
-.note_phone {
-    width: 300px;
-    height: 455px;
-    background-image: url(images/Screen_1.png);
-    background-size: cover;
+.quote .container {
+    background: url(images/Screen_1.png) no-repeat;
+        background-position: left 240px;
+        background-size: 300px auto;
+
 }
 
 .note_text {
@@ -172,7 +163,9 @@ h1 {
     height: 232px;
     background-color: #ffffff;
     border-radius: 15px;
-    margin-top: 100px;
+    margin-top: 187px;
+    margin-right: 0;
+    margin-left: auto;
     color: #41e0d8;
     padding-top: 30px;
     padding-left: 25px;
@@ -181,7 +174,7 @@ h1 {
 .quote_note {
     display: flex;
     justify-content: space-between;
-    margin-top: 87px;
+    
 }
 
 .paragr_note {
@@ -214,11 +207,11 @@ h1 {
     margin-top: 75px;
 }
 
-/* Компонент join */
+
+/*join */
 
 .join {
     height: 440px;
-    width: 100%;
     background-color: #262a34;
     padding-top: 75px;
 }
@@ -269,12 +262,11 @@ h1 {
     border: none;
 }
 
-/* Компонент footer */
+/* footer */
 
 .footer {
     height: 295px;
     background-color: #fff;
-    width: 100%;
     padding-top: 78px;
 }
 .logo_foot {
@@ -293,13 +285,13 @@ h1 {
     text-transform: uppercase;
 }
 
-/* Кртинки карусели */
+/* carousel images */
 .radio {
     margin-top: 45px;
     margin-left: 190px;
 }
 
 .note_wrapp .radio {
-    margin-left: 255px;
+    margin-left: 585px;
 
 }
